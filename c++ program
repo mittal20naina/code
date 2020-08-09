@@ -1,0 +1,30 @@
+//1st program
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main(){
+	cout<<"size of char: "<< sizeof(char)<<" byte"<<endl;
+	cout<<"size of int: "<< sizeof(int)<<" bytes"<<endl;
+	cout<<"size of float: "<< sizeof(float)<<" bytes"<<endl;
+	cout<<"size of double: "<< sizeof(double)<< " bytes"<<endl;
+  return 0;
+  }
+  
+  
+  
+  //2nd program
+  #include<iostream>
+using namespace std;
+int main()
+{
+	float a,b;
+	cout<<"\nenter two numbers:";
+	cin>>a>>b;
+	float product=a*b;
+	cout<<"product="<<product;
+	return 0;
+}
+	
+
+
+
